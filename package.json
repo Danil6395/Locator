@@ -1,0 +1,18 @@
+{
+  "name": "geoguesser-discord-bot",
+  "version": "1.0.0",
+  "description": "🌍 GeoGuesser Discord Bot — Угадай местоположение по фото!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7",
+    "string-similarity": "^4.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
